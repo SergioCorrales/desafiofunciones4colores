@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.boxs-colors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+.box-color {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#color-1{
+    background-color: blue;
+}
+#color-2{
+    background-color: red;
+}
+#color-3{
+    background-color: green;
+}
+#color-4{
+    background-color: yellow;
+}
+.black{
+    background-color: black !important;
+}
